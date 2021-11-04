@@ -1,0 +1,159 @@
+/* Section One */
+@media screen and (max-width: 880px) {
+	.wrapper h1 {
+		font-size: 35px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.wrapper h2 {
+		font-size: 14px;
+		padding-top: 110px;
+	}
+	.wrapper h1 {
+		padding-top: 15px;
+		font-size: 23px;
+	}
+	.flex-text {
+		display: flex;
+	}
+	.wrapper .static-txt {
+		margin-top: 20px;
+		font-size: 40px;
+		font-weight: 300;
+		padding-left: 40px;
+	}
+	.dynamic-txts li {
+		font-size: 40px;
+		font-weight: 400;
+	}
+	.dynamic-txts li span::after {
+		top: 3px;
+	}
+}
+/* Section One */
+
+@media screen and (max-width: 1150px) {
+	.div-two h1 {
+		font-size: 40px;
+	}
+	.div-two p {
+		font-size: 18px;
+	}
+	button {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.div-one {
+		width: 99%;
+	}
+	.div-one img {
+		width: 100%;
+		padding-left: 0%;
+	}
+	.box-fix {
+		width: 96%;
+		padding: 2%;
+	}
+
+	.div-two {
+		width: 100%;
+	}
+
+	.div-two h1 {
+		padding-top: 40px;
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.div-two p {
+		font-size: 20px;
+		line-height: 37px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.dives-two {
+		width: 100%;
+		display: block;
+	}
+
+	.div-one {
+		width: 99%;
+	}
+	.div-one img {
+		width: 100%;
+		padding-left: 0%;
+	}
+	.box-fix {
+		width: 96%;
+		padding: 2%;
+	}
+
+	.div-two {
+		width: 100%;
+	}
+
+	.div-two h1 {
+		padding-top: 40px;
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.div-two p {
+		font-size: 20px;
+		line-height: 37px;
+	}
+}
+@media screen and (max-width: 400px) {
+}
+/* footer */
+@media screen and (max-width: 700px) {
+	.flex {
+		display: block;
+	}
+	.list {
+		width: 90%;
+	}
+}
+
+/* last bar footer */
+
+/* last nav footer */
+@media screen and (max-width: 800px) {
+	.footer {
+		margin-top: 30px;
+		display: block;
+		justify-content: space-around;
+		padding: 3%;
+		text-align: center;
+	}
+}
+
+/* five */
+@media screen and (max-width: 800px) {
+	.div-flex-two {
+		display: block;
+		width: 100%;
+	}
+
+	.flex-two-dives {
+		width: 100%;
+	}
+	.flex-two-dives img {
+		height: auto;
+	}
+	.flex-two-dives h1 {
+		font-size: 35px;
+	}
+	.flex-two-dives p {
+		font-size: 18px;
+	}
+	.small-two {
+		display: flex;
+		width: 100%;
+		height: auto;
+	}
+	.flex-div {
+		width: 100%;
+		height: 20vh;
+		height: auto;
+	}
+}
